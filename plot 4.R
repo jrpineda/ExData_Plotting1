@@ -24,7 +24,7 @@ with(house,{
   lines(Sub_metering_2~Datetime, col="red")
   lines(Sub_metering_3~Datetime, col="blue")
   
-  legend("topright", inset=0.01, col=c("black", "red", "blue"), lty=1,cex=0.8, box.lty=0, 
+  legend("topright", inset=0.01, col=c("black", "red", "blue"), lty=0,cex=0.8, box.lty=0, 
          legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
   
   plot(Datetime, Global_reactive_power, type="l", ylab="Globa_reactive_power", 
